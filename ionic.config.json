@@ -1,0 +1,7 @@
+{
+  "name": "roupas tops",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
