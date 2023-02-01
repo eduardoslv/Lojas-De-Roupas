@@ -2,40 +2,43 @@
 
 <ion-content [fullscreen]="true">
 
-  <!---->
+<!-- PRIMEIRO CARD -->
+
   <ion-card>
     <ion-card-header>
       <ion-card-title>Roupas de Verão</ion-card-title>
-      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-subtitle>Aproveite a coleção de Verão!!!</ion-card-subtitle>
     </ion-card-header>
   
     <ion-card-content>
-      Você já Conhece a Coleção de Verão das Lojas Senac
+      Você já conhece a coleção de verão das Lojas Senac?
     </ion-card-content>
-
-    <ion-button fill="clear">Ver coleção</ion-button>
+  
+    <ion-button [routerLink]="['/verao']" fill="clear">Ver coleção</ion-button>
     <ion-button fill="clear">Início</ion-button>
   </ion-card>
-
-
-<!---->
+  
+  <!-- SEGUNDO CARD -->
 
 <ion-card>
+  
+  <ion-card-header>
 
-<ion-card-header>
-  <ion-img class="img-kids" src="https://img.ltwebstatic.com/images3_pi/2022/05/13/1652426946713f7559085c2aa629c542e2838a913c_thumbnail_600x.webp"></ion-img>
-<ion-card-title>
-Roupas Infantis
-</ion-card-title>
+    <ion-img class="img-kids" src="https://i.pinimg.com/736x/eb/ca/26/ebca26660c283dc150c4ea4b917c8263.jpg"></ion-img>
 
-<ion-card-subtitle>
-Conheça a Nova Coleção Infantil
-</ion-card-subtitle>
-</ion-card-header>
+    <ion-card-title>
+      Roupas Infantis
+    </ion-card-title>
 
-<ion-button fill="clear" [routerLink]="['/infantis']">Ver coleção</ion-button>
+    <ion-card-subtitle>
+      Conheça a nova coleção infantil!!!
+    </ion-card-subtitle>
+  </ion-card-header>
 
-<ion-button fill="clear">Início</ion-button>
+  <ion-button fill="clear" [routerLink]="['/infantis']">Ver coleção</ion-button>
 
+  <ion-button fill="clear">Início</ion-button> 
+    
 </ion-card>
+
 </ion-content>
